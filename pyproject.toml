@@ -1,11 +1,9 @@
 [tool.poetry]
-name = "cloudlydb-testing"
-version = "0.1.0"
+name = "cloudlytesting"
+version = "0.1.1"
 description = ""
 authors = ["Nana Duah <gabano2005@gmail.com>"]
-packages = [
-    { include = "pytest.py", from = "." },
-]
+
 
 [tool.poetry.dependencies]
 python = "^3.11"
